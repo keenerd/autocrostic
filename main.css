@@ -1,0 +1,97 @@
+body {
+  line-height: 1.5em;
+  font-family: sans-serif;
+  margin: 1em 3em 3em 3em;
+  text-align: center;
+}
+
+h1 {
+  color: #000;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+#grid {
+  display: inline-block;
+  text-align: center;
+  margin: 0px auto;
+}
+
+#grid td {
+  width: 1.5em;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#grid .filled {
+  background: #000;
+  color: #000;
+}
+
+#grid input {
+  font-size: larger;
+  width: 1em;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#clueText {
+  min-height: 2em;
+}
+
+#clues {
+  text-align: left;
+  columnCount: 2;
+  MozColumnCount: 2;
+  WebkitColumnCount: 2;
+}
+
+#clues ul {
+  list-style: none;
+  white-space: normal;
+}
+
+#clues li {
+  /*line-height: 1.5em;
+  display: inline;*/
+  white-space: nowrap;
+  margin: 1em 5em 1em 0em;
+}
+
+#clues .label {
+  font-size: larger;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+#clues input {
+  font-size: larger;
+  width: 1em;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+input {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #abadb3;
+  padding: 0px;
+  margin: 0px;
+}
+
+input.focused {
+  background-color: #aaf;
+}
+
+input.blurred {
+  background-color: #fff;
+}
+

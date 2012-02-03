@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="main.css" rel="stylesheet" type="text/css">
+<style type="main.css" media="all"> @import "main.css"; </style>
+<title>AutoCrostics</title>
+<script type="text/javascript" src="autocrostic.js"></script>
+</head>
+<body id="body">
+<h1>AutoCrostics</h1>
+<h4><a href="http://web.mit.edu/puzzle/www/12/okla_holmes_a/yo_dawg_i_herd_you_like_puzzle_hunts/puzzle_b.html">source</a> 
+ <a href="puzzle_b.json">raw</a>
+<button type="button" onclick="gridExport()">Export</button>
+</h4>
+<hr>
+<form id="grid" name="grid"></form>
+<hr>
+<span id="clueText">Welcome to the most recent advancement in acrostic solving.</span>
+<hr>
+<form id="clues" name="clues"></form>
+<hr>
+<script type="text/javascript">
+    demoMode  = true;  // delete for multi user
+    sourceURL = "puzzle_b.json";
+    shareURL  = "puzzle_b.sync";  // This file needs PUT access
+    postURL   = "";
+    get(sourceURL, main);
+</script>
+
+</body>
+</html>
+
+
